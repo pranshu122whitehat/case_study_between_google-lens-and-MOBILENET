@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJpZ2h0JTIwY29sb3J8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+  <center>
+<h1>Google lense vs Mobilenet</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbUo9ZkDPDgaybD6wDvXjtw3EI7MA7nCCPono7BTQBHiRwD1WW8btCQll5dgGvpBZD-XU&usqp=CAU"><br><br>
+vs<br><br>MOBILENET
+<p class="btn btn-success result_para_tag">Object :
+  <span id="reslt_object_name"></span>
+</p>
+
+<br><br>
+<p class="btn btn-success result_para_tag">Accuracy :
+  <span id="reslt_object_accuracy"></span>
+</p>
+</center>
+
+<div class="test_object1">
+  <h1 class="btn btn-info">test object 1 bottle</h1>
+  <img src="https://img.tennis-warehouse.com/watermark/rs.php?path=NBM2WBCB-1.jpg&nw=600" height=200 width=200>
+<h1 class="btn btn-primary">google lense = water bottle</h1><br><br><h1 class="btn btn-primary">MOBILENET = water bootle</h1><br><span>
+  <h1>this concludes a draw</h1>
+</span>
+</div>
+ <br>
+ <br>
+ <br>
+<div class="test_object2">
+  <h1 class="btn btn-info">test object 2 shoes</h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSauQwL4e6n62nrVQYHRIwuUs_M9aJyVA_c4w&usqp=CAU" height=200 width=200>
+  <h1 class="btn btn-primary">google lense = canvas shoes</h1><br><br><h1 class="btn btn-primary">MOBILENET = running shoes</h1><br><span>
+    <h1>this concludes that google lenses is more acurate</h1>
+</div>
+  <br>
+  <br>
+  <br>
+<div class="test_object3">
+  <h1 class="btn btn-info">test object 3 headphones</h1>
+<img src="https://www.cnet.com/a/img/PTwnNWXE0eVZPU8_6ytNCyYP23Y=/1200x675/2020/07/10/f478f31c-bb69-40ea-b39c-1f65e744fc14/microsoft-surface-headphones-2-13.jpg" height=200 width=200>
+<h1 class="btn btn-primary">google lense = headphones</h1><br><br><h1 class="btn btn-primary">MOBILENET = microphone, mic</h1><br><span>
+  <h1>this concludes that google lenses is more acurate</h1>
+</div>
+<br>
+<br>
+<br>
+<div class="test_object4">
+<h1 class="btn btn-info">test object 4 soft toy </h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-jszEl0YPjd_t2vSiTgbkM8FoM2w5poLiMA&usqp=CAU" height=200 width=200>
+<h1 class="btn btn-primary">google lense = soft toy</h1><br><br><h1 class="btn btn-primary">MOBILENET = ski mask</h1><br><span>
+  <h1>this concludes that google lenses is more acurate</h1>
+</div>
+<br>
+<br>
+<br>
+<div class="test_object5"> 
+  <h1 class="btn btn-info">test object 5 bed</h1>
+  <img src="https://cincinnatioverstockwarehouse.com/wp-content/uploads/2019/01/B410-Lonnix_Full_Bed.jpg" height=200 width=200>
+  <h1 class="btn btn-primary">google lense = bed pillow blanket</h1><br><br><h1 class="btn btn-primary">MOBILENET = bathtub</h1><br><span>
+    <h1>this concludes that google lenses is more acurate</h1>
+  </div>
+
+  <p>
+    --side note--All of these images were tested by google lense and mobile net
+  </p>
+
+
+</body>
+<script
+</html>
